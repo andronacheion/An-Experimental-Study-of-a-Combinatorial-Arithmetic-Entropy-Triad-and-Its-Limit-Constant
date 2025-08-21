@@ -1,2 +1,9 @@
 data/triad_balance_to_1e6.csv 
 label_ref_report 
+
+# editor/temps
+*.swp
+*.kate-swp
+*~
+__pycache__/
+*.pyc
