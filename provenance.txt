@@ -1,0 +1,5 @@
+commit: 17b77ce546cba40adc786ff6248ba219aa36b633 (tag v1.0.0)
+env: Python 3.12 (Anaconda), NumPy 1.26.4
+generated:
+  - data/run.csv:  PYTHONPATH=. python -m scripts.triad_full --n 100000 --csv data/run.csv
+  - data/summary.csv: PYTHONPATH=. python -m scripts.regen_full_csv --n 200000 --out data/summary.csv
