@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it as follows."
+title: "An Experimental Study of a Combinatorial–Arithmetic–Entropy Triad and Its Limit Constant"
+authors:
+  - family-names: Andronache
+    given-names: Ion
+    email: andronache.c.ion@proton.me
+version: "v1.0.0"
+date-released: "2025-08-21"
+repository-code: "https://github.com/andronacheion/An-Experimental-Study-of-a-Combinatorial-Arithmetic-Entropy-Triad-and-Its-Limit-Constant"
+keywords:
+  - number theory
+  - analytic number theory
+  - computational reproducibility
+  - entropy
+  - multiplicative functions

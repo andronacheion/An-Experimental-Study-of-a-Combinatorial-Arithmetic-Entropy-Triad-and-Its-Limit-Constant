@@ -1,0 +1,27 @@
+# Provenance for data & figures
+
+Repository:
+  URL: https://github.com/ion/An-Experimental-Study-of-a-Combinatorial-Arithmetic-Entropy-Triad-and-Its-Limit-Constant
+  Release: v1.0.0
+  Commit: 17b77ce546cba40adc786ff6248ba219aa36b633
+  SHA256(release-v1.0.0.zip): 399d99176ee4ec8b279a2dc184b406f1880a347f28f4716b4939c0c752c530e0
+
+Environment:
+  Python 3.12 (Anaconda); interpreter /home/user/anaconda3/bin/python3
+  NumPy 1.26.4 (/home/user/anaconda3/lib/python3.12/site-packages)
+  Exact versions pinned in requirements.txt / environment.yml
+
+Reproduction commands (run from repo root with PYTHONPATH=.):
+  # Main run (creates data/run.csv)
+  PYTHONPATH=. python -m scripts.triad_full --n 100000 --csv data/run.csv
+
+  # Summary sweep (creates data/summary.csv)
+  PYTHONPATH=. python -m scripts.regen_full_csv --n 200000 --out data/summary.csv
+
+Checksums (compute locally to verify integrity):
+  sha256sum data/run.csv
+  sha256sum data/summary.csv
+
+Notes:
+  - Figures in figures/ are the exact images used in the paper; they can be regenerated from the CSVs and scripts above.
+  - A permanent Zenodo DOI will be added at the proof stage; future versions may appear with new DOIs, but v1.0.0 remains the version used in the manuscript.
